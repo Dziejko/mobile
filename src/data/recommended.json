@@ -1,0 +1,79 @@
+{
+  "devices": [
+    {
+      "id": 1,
+      "brand": "samsung",
+      "name": "Samsung Galaxy S24 5G 8/256GB Dual SIM (S921)",
+      "price": 1000,
+      "imgs": [
+        "https://static.komputronik.pl/product-picture/5/TELKOMSMS921BZKGEUE-1.jpg",
+        "https://static.komputronik.pl/product-picture/5/TELKOMSMS921BZAGEUE-1.jpg",
+        "https://static.komputronik.pl/product-picture/5/TELKOMSMS921BZYGEUE-1.jpg"
+      ],
+      "colors": ["black", "gray", "gold"],
+      "specifications": {
+        "is5g": true,
+        "capacity": 256,
+        "battery": 4000,
+        "procesor": 3.2,
+        "camera": 50,
+        "size": 6.2
+      }
+    },
+    {
+      "id": 2,
+      "brand": "samsung",
+      "name": "Samsung Galaxy S24 Ultra 5G 12/512GB Dual SIM titan(S928)",
+      "price": 1500,
+      "imgs": [
+        "https://static.komputronik.pl/product-picture/5/TELKOMSMS928BZTHEUE-1.jpg",
+        "https://static.komputronik.pl/product-picture/5/TELKOMSMS928BZYHEUE-1.jpg"
+      ],
+      "colors": ["gray", "gold"],
+      "specifications": {
+        "is5g": true,
+        "capacity": 512,
+        "battery": 4200,
+        "procesor": 3.4,
+        "camera": 55,
+        "size": 6.6
+      }
+    },
+    {
+      "id": 3,
+      "brand": "samsung",
+      "name": "Samsung Galaxy S23 5G 8/128GB Dual SIM (S911)",
+      "price": 700,
+      "imgs": [
+        "https://static.komputronik.pl/product-picture/5/TELKOMSMS911BZKDEUE-1.jpg"
+      ],
+      "colors": ["black"],
+      "specifications": {
+        "is5g": true,
+        "capacity": 128,
+        "battery": 3900,
+        "procesor": 3.1,
+        "camera": 53,
+        "size": 5.9
+      }
+    },
+    {
+      "id": 4,
+      "brand": "samsung",
+      "name": "Samsung Galaxy S23 5G 8/256GB Dual SIM (S911)",
+      "price": 750,
+      "imgs": [
+        "https://static.komputronik.pl/product-picture/5/TELKOMSMS911BZKDEUE-1.jpg"
+      ],
+      "colors": ["black"],
+      "specifications": {
+        "is5g": true,
+        "capacity": 256,
+        "battery": 3500,
+        "procesor": 2.9,
+        "camera": 45,
+        "size": 6.1
+      }
+    }
+  ]
+}

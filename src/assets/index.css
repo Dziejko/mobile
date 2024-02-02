@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: auto !important;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+.active{
+  opacity: 80%;
+}
+
+.arrow-left{
+  animation: slideRight 1500ms infinite;
+}
+
+@keyframes slideRight {
+  0% { transform: translate(-50%, 0); }
+  100% { transform: 0  }
+}
+.arrow-right{
+  animation: slideLeft 1500ms infinite;
+}
+@keyframes slideLeft {
+  0% { transform: translate(50%, 0); }
+  100% { transform: 0  }
+}
+.top-img{
+  transform: translate(15%, 0);
+}
+.top-img img{
+  margin-top: 3rem;
+}
+
+@media (max-width:992px){
+  .top-img{
+    display: none;
+ 
+  }
+}
+.h1-top-home-page{
+  margin-top: 5rem;
+}
+
+.top-home-page-btn{
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+.top-home-page-btn button{
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+@media(max-width:650px){
+  .top-home-page-btn{
+    margin: 1rem auto;
+  }
+}
+
+html,body{
+  padding-right: 0 !important;
+}
+
+.exclamation-mark{
+  position: absolute;
+  font-size: 30px;
+  left:178px;
+  animation: exclamationRotate 1000ms infinite;
+
+}
+
+@keyframes exclamationRotate {
+  50% { rotate: 0deg;}
+  65% { rotate: -15deg;  }
+  75% { rotate: 15deg;  }
+  100% { rotate: 0deg;  }
+}
+
+.my-plans-dropdown{
+  position: absolute;
+  top: 40px;
+  left: -20px;
+  width: 250px;
+  background-color: white;
+  box-shadow: 1px 3px 20px -10px black;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  cursor: default;
+  text-align: start;
+}
+
+.show-dropdown{
+  display: block;
+}
+.hide-dropdown{
+  display: none;
+}

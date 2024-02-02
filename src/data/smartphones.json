@@ -1,0 +1,172 @@
+{
+  "devices": [
+    {
+      "id": 1,
+      "brand": "samsung",
+      "name": "Samsung Galaxy S24 5G 8/256GB Dual SIM (S921)",
+      "price": 1000,
+      "imgs": [
+        "https://static.komputronik.pl/product-picture/5/TELKOMSMS921BZKGEUE-1.jpg",
+        "https://static.komputronik.pl/product-picture/5/TELKOMSMS921BZAGEUE-1.jpg",
+        "https://static.komputronik.pl/product-picture/5/TELKOMSMS921BZYGEUE-1.jpg"
+      ],
+      "colors": ["black", "gray", "gold"],
+      "specifications": {
+        "is5g": true,
+        "capacity": 256,
+        "battery": 4000,
+        "procesor": 3.2,
+        "camera": 50,
+        "size": 6.2
+      }
+    },
+    {
+      "id": 2,
+      "brand": "samsung",
+      "name": "Samsung Galaxy S24 Ultra 5G 12/512GB Dual SIM titan(S928)",
+      "price": 1500,
+      "imgs": [
+        "https://static.komputronik.pl/product-picture/5/TELKOMSMS928BZTHEUE-1.jpg",
+        "https://static.komputronik.pl/product-picture/5/TELKOMSMS928BZYHEUE-1.jpg"
+      ],
+      "colors": ["gray", "gold"],
+      "specifications": {
+        "is5g": true,
+        "capacity": 512,
+        "battery": 4200,
+        "procesor": 3.4,
+        "camera": 55,
+        "size": 6.6
+      }
+    },
+    {
+      "id": 3,
+      "brand": "samsung",
+      "name": "Samsung Galaxy S23 5G 8/128GB Dual SIM (S911)",
+      "price": 700,
+      "imgs": [
+        "https://static.komputronik.pl/product-picture/5/TELKOMSMS911BZKDEUE-1.jpg"
+      ],
+      "colors": ["black"],
+      "specifications": {
+        "is5g": true,
+        "capacity": 128,
+        "battery": 3900,
+        "procesor": 3.1,
+        "camera": 53,
+        "size": 5.9
+      }
+    },
+    {
+      "id": 4,
+      "brand": "samsung",
+      "name": "Samsung Galaxy S23 5G 8/256GB Dual SIM (S911)",
+      "price": 750,
+      "imgs": [
+        "https://static.komputronik.pl/product-picture/5/TELKOMSMS911BZKDEUE-1.jpg"
+      ],
+      "colors": ["black"],
+      "specifications": {
+        "is5g": true,
+        "capacity": 256,
+        "battery": 3500,
+        "procesor": 2.9,
+        "camera": 45,
+        "size": 6.1
+      }
+    },
+    {
+      "id": 5,
+      "brand": "apple",
+      "name": "Apple iPhone 15 Pro 128GB Titan",
+      "price": 900,
+      "imgs": [
+        "https://static.komputronik.pl/product-picture/5/TELKOMAPL62-1.jpg",
+        "https://static.komputronik.pl/product-picture/5/TELKOMAPL61-1.jpg"
+      ],
+      "colors": ["black", "white"],
+      "specifications": {
+        "is5g": false,
+        "capacity": 128,
+        "battery": 2900,
+        "procesor": 3.5,
+        "camera": 60,
+        "size": 4.8
+      }
+    },
+    {
+      "id": 6,
+      "brand": "apple",
+      "name": "Apple iPhone 15 128GB",
+      "price": 780,
+      "imgs": [
+        "https://static.komputronik.pl/product-picture/5/TELKOMAPL51-1.jpg"
+      ],
+      "colors": ["black"],
+      "specifications": {
+        "is5g": true,
+        "capacity": 128,
+        "battery": 2800,
+        "procesor": 3.4,
+        "camera": 58,
+        "size": 4.6
+      }
+    },
+    {
+      "id": 7,
+      "brand": "apple",
+      "name": "Apple iPhone 15 Plus 128GB",
+      "price": 1200,
+      "imgs": [
+        "https://static.komputronik.pl/product-picture/5/TELKOMAPL47-1.jpg"
+      ],
+      "colors": ["black"],
+      "specifications": {
+        "is5g": true,
+        "capacity": 128,
+        "battery": 3200,
+        "procesor": 3.9,
+        "camera": 66,
+        "size": 4.9
+      }
+    },
+    {
+      "id": 8,
+      "brand": "apple",
+      "name": "Apple iPhone 14 128GB",
+      "price": 710,
+      "imgs": [
+        "https://static.komputronik.pl/product-picture/5/TELKOMAPIP14128BLCK-1.jpg"
+      ],
+      "colors": ["black"],
+      "specifications": {
+        "is5g": false,
+        "capacity": 128,
+        "battery": 2900,
+        "procesor": 3.6,
+        "camera": 60,
+        "size": 4.3
+      }
+    },
+    {
+      "id": 9,
+      "brand": "apple",
+      "name": "Apple iPhone 14 Plus 128GB",
+      "price": 900,
+      "imgs": [
+        "https://static.komputronik.pl/product-picture/5/TELKOMAPIP14PL128BLCK-1.jpg"
+      ],
+      "colors": ["black"],
+      "specifications": {
+        "is5g": false,
+        "capacity": 128,
+        "battery": 2500,
+        "procesor": 3,
+        "camera": 70,
+        "size": 5.1
+      }
+    }
+  ],
+  "brands": ["apple", "samsung"],
+  "colors": ["black", "gold", "gray", "white"]
+}
